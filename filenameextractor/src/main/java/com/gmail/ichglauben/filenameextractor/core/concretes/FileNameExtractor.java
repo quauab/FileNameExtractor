@@ -16,7 +16,7 @@ import com.gmail.ichglauben.filenameextractor.core.utils.concretes.PathValidator
  *	@since 5/8/2016
 */
 public class FileNameExtractor {
-	/**Overloaded method.
+	/**Overloaded method. This method checks the file path's existence.
 	 * @param filePath String the absolute file path
 	 * @return String The file's name without the extension*/
 	public static String extract(String filePath) {
@@ -32,7 +32,7 @@ public class FileNameExtractor {
 		return null;
 	}
 
-	/**Overloaded method.
+	/**Overloaded method. This method checks the file's existence.
 	 * @param file The absolute File.
 	 * @return String The file's name without the extension*/
 	public static String extract(File file) {
@@ -48,7 +48,7 @@ public class FileNameExtractor {
 		return null;
 	}
 
-	/**Overloaded method.
+	/**Overloaded method. This method checks the path's existence.
 	 * @param path The absolute Path.
 	 * @return String The file's name without the extension*/
 	public static String extract(Path path) {

@@ -45,4 +45,6 @@ public class FileNameExtractor {
 		}
 		return null;
 	}
+	
+	public String toString() { return "File Name Extractor"; }
 }

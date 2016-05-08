@@ -5,7 +5,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 /**	
  * This class reports whether or not the given file exists.
- *	@see com.gmail.ichglauben.core.utils.concretes.PathValidator
  *	@see java.nio.file.Files
  *	@see java.nio.file.Path
  *	@see java.nio.file.Paths

@@ -7,7 +7,6 @@ import java.nio.file.Paths;
 import com.gmail.ichglauben.filenameextractor.core.utils.concretes.PathValidator;
 /**	
  * This class extracts the name portion of a file path, without it's extension.
- *	@see com.gmail.ichglauben.core.utils.concretes.PathValidator
  *	@see java.io.File
  *	@see java.nio.file.Path
  *	@see java.nio.file.Paths

@@ -6,7 +6,8 @@ import java.nio.file.Paths;
 
 import com.gmail.ichglauben.filenameextractor.core.utils.concretes.PathValidator;
 /**	
- * This class extracts the name portion of a file path, without it's extension.
+ * Use this class to extract the name portion of a file path, without it's extension. This class provides 3 overloaded methods
+ * to accomplish this task.
  *	@see java.io.File
  *	@see java.nio.file.Path
  *	@see java.nio.file.Paths
@@ -15,7 +16,7 @@ import com.gmail.ichglauben.filenameextractor.core.utils.concretes.PathValidator
  *	@since 5/8/2016
 */
 public class FileNameExtractor {
-	/**Overloaded method. This method checks the file path's existence.
+	/**Use this method to extract the name portion from a file path.
 	 * @param filePath String the absolute file path
 	 * @return String The file's name without the extension*/
 	public static String extract(String filePath) {
@@ -31,7 +32,7 @@ public class FileNameExtractor {
 		return null;
 	}
 
-	/**Overloaded method. This method checks the file's existence.
+	/**Use this method to extract the name portion from a File.
 	 * @param file The absolute File.
 	 * @return String The file's name without the extension*/
 	public static String extract(File file) {
@@ -47,7 +48,7 @@ public class FileNameExtractor {
 		return null;
 	}
 
-	/**Overloaded method. This method checks the path's existence.
+	/**Use this method to extract the name portion from a Path.
 	 * @param path The absolute Path.
 	 * @return String The file's name without the extension*/
 	public static String extract(Path path) {

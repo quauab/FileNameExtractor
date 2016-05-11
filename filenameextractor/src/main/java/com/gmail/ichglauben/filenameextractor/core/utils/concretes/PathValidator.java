@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 /**	
  * Use this class to validate the existence of a file (or directory). This class provides 3 separate methods to
- * validate a directory, file or a file path exists. Also this class contains all static members and a private constructor.
+ * validate that a directory, file or a file path exists. Also this class contains all static members and a private constructor.
  * This class can also be assigned to a variable by way of the getInstance method.
  *	@see java.nio.file.Files
  *	@see java.nio.file.Path

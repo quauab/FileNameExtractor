@@ -20,6 +20,7 @@ public class App extends CustomClass {
 	}
 	
 	private static void testFileNameExtractorInstance(File f) {
-		print(f.toPath().getFileName() + " = " + FileNameExtractor.extractName(f));
+		FileNameExtractor extractor = FileNameExtractor.getInstance();
+		print(f.toPath().getFileName() + " = " + extractor.extractName(f));
 	}
 }

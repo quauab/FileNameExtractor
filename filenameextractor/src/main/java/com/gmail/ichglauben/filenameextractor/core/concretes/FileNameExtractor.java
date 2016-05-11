@@ -34,14 +34,36 @@ public class FileNameExtractor extends AbstractFileNameExtractor {
 		return extractor;
 	}
 
+	/**
+	 * Use this method to extract the name portion from a Path.
+	 * 
+	 * @param path
+	 *            <b><i>Path</i></b> The absolute Path.
+	 * @return String The path's name without the extension
+	 */
 	public static String extractName(Path p) {
 		return extract(p);
 	}
 
+	/**
+	 * Use this method to extract the name portion from a File.
+	 * 
+	 * @param file
+	 *            <b><i>File</i></b> The absolute File.
+	 * @return String The file's name without the extension
+	 */
 	public static String extractName(File f) {
 		return extract(f);
 	}
 
+	/**
+	 * Use this method to extract the name portion from a file path.
+	 * 
+	 * @param filePath
+	 *            <b><i>String</i></b> The absolute file path
+	 * @return String The name of the file at the end of this path, without the
+	 *         extension
+	 */
 	public static String extractName(String s) {
 		return extract(s);
 	}

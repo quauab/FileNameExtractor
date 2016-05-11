@@ -37,7 +37,7 @@ public class FileNameExtractor extends AbstractFileNameExtractor {
 	/**
 	 * Use this method to extract the name portion from a Path.
 	 * 
-	 * @param path
+	 * @param p
 	 *            <b><i>Path</i></b> The absolute Path.
 	 * @return String The path's name without the extension
 	 */
@@ -48,7 +48,7 @@ public class FileNameExtractor extends AbstractFileNameExtractor {
 	/**
 	 * Use this method to extract the name portion from a File.
 	 * 
-	 * @param file
+	 * @param f
 	 *            <b><i>File</i></b> The absolute File.
 	 * @return String The file's name without the extension
 	 */
@@ -59,7 +59,7 @@ public class FileNameExtractor extends AbstractFileNameExtractor {
 	/**
 	 * Use this method to extract the name portion from a file path.
 	 * 
-	 * @param filePath
+	 * @param s
 	 *            <b><i>String</i></b> The absolute file path
 	 * @return String The name of the file at the end of this path, without the
 	 *         extension

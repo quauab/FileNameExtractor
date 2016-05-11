@@ -7,7 +7,7 @@ import com.gmail.ichglauben.filenameextractor.core.abstracts.AbstractFileNameExt
 
 /**
  * Use this class to extract the name portion of a file path, without it's
- * extension. This class provides 3 overloaded methods to accomplish this task.
+ * extension. This class provides 3 overloaded static methods to accomplish this task.
  * 
  * @see java.io.File
  * @see java.nio.file.Path

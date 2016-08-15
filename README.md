@@ -6,3 +6,6 @@ Generate a jar file - Include the jar in the project's build path - Instantiate 
 
 <h2>Motivation</h2>
 I created this project so to have a Java jar library that will extract a file's name (without the dot or the extension), if and when I am working on a project that requires this feature.
+
+<h2>Info</h2>
+This project does not contain any test cases.

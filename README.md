@@ -7,6 +7,7 @@ A simple Java solution for extracting the name portion (not including the dot an
   <li>Compile the project</li>
   <li>Generate a jar library</li>
   <li>Add jar to project's build path</li>
+  <li>Call from the FileNameExtractor concrete class or sub-class it's parent</li>
 </ol>
 
 <h2>Motivation</h2>

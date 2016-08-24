@@ -1,5 +1,6 @@
 # File Name Extractor
-A simple Java solution for extracting the name portion (not including the dot and the extension) of a file. It contains one abstract class with one single argument overloaded method "extract" the returns the file's name. This project also contains a factory child class "FileNameExtractor" that contains a single argument overloaded method "extractName" that calls it's inherited "extract" method, then returns the file's name portion. Both class' overloaded method arguments can be a Path, File or a String path pointing to the file.
+
+Extract a file's name (without the dot + extension). A Java solution for obtaining just the name portion of a file.
 
 <h2>Installation</h2>
 <ol>

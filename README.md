@@ -1,6 +1,6 @@
 # File Name Extractor
 
-Extract a file's name (without the dot + extension). A Java solution for obtaining just the name portion of a file.
+Extract a file's name without the dot + extension portion. 
 
 <h2>Installation</h2>
 <ol>
